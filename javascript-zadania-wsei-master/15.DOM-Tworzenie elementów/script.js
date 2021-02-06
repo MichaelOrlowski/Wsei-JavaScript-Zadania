@@ -7,7 +7,7 @@ exe.appendChild(newElem);
 
 // 2 zadanie
 
-const myTab = ["Cherry", "Orange", "Peach", "Apple", "Watermelon", "Sea Buckthorn"];
+const myTab = ["Jabłko", "Pomarańcza", "Banan", "Wiśnia", "Granat", "Arbuz"];
 const myList = document.createElement('ol');
 myList.id = 'myList';
 
@@ -60,9 +60,7 @@ const myNewObjStr = {
     div2: {
         div3: 'to jest div3(2)',
     },
-    span2: 'to jest span2',
-    /* dopisałem sobie cyferki,
-    żeby mi się nie mieszało */
+    span2: 'to jest span2'
 }
 
 const r00t = document.getElementById('root');
@@ -92,7 +90,7 @@ document.body.append(secondDiv, r00t);
 
 // 7 zadanie
 
-const favFruits = ['ogórek', 'liczi', 'mango', 'banan', 'borówki', 'pomarańcza', 'awokado'];
+const favFruits = ['arbuz', 'granat', 'mango', 'banan', 'banan', 'pomarańcza', 'wiśnia'];
 const ul1 = document.createElement("ul");
 const ul2 = document.createElement("ul");
 favFruits.forEach(v => {
